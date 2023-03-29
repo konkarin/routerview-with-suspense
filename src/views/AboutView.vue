@@ -5,7 +5,7 @@ const message = ref('')
 
 message.value = await new Promise((resolve) => {
   setTimeout(() => {
-    resolve('home')
+    resolve('about')
   }, 1000)
 })
 </script>
